@@ -1,6 +1,12 @@
-# Openexl
+# Starter project for Angular & Keycloak
+Grab this project and start developing your angular application with Keycloak SSO.
+When creating a client on Keycloak, make sure to set Web Origins to `*` to bypass CORS:
+![img.png](img.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+Edit `src/app/init/keycloak-init.factory.ts` to match your Keycloak server settings.
+
+The rest are angular-related stuff.
+Brought to you by [datmt](https://datmt.com/)
 
 ## Development server
 
